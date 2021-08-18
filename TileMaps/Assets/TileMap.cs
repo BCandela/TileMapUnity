@@ -9,9 +9,9 @@ using UnityEngine;
 
 public class TileMap : MonoBehaviour
 {
-    int size_x = 100;
-    int size_z = 50;
-    float tileSize = 1.0f;
+    public int size_x = 100;
+    public int size_z = 50;
+    public float tileSize = 1.0f;
 
     // Start is called before the first frame update
     void Start()
@@ -19,7 +19,7 @@ public class TileMap : MonoBehaviour
         BuildMesh();
     }
 
-    private void BuildMesh()
+    public void BuildMesh()
     {
         int numTiles = size_x * size_z;
         int numTris = numTiles * 2;
