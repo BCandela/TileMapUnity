@@ -11,7 +11,7 @@ public class TileMapInspector : Editor{
         //base.OnInspectorGUI();
         DrawDefaultInspector();
 
-        //EditorGUILayout.BeginVertical();
+       //EditorGUILayout.BeginVertical();
         //v = EditorGUILayout.Slider(v, 0, 2.0f);
         //EditorGUILayout.EndVertical();
 
